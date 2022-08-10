@@ -1,0 +1,11 @@
+POST http://localhost:4000/lms/create
+Content-Type: application/json
+
+{
+    "email" : "anki@northeastern.edu",
+    "password" : "rEact@09871201921sacc",
+    "name" : "Ankita Senapati",
+    "isAdmin":false,
+    "membershipType" : "Pro"
+}
+

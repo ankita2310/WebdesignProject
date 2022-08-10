@@ -1,0 +1,328 @@
+
+/*Color variables*/
+/* Mixins and Functions */
+  
+.title-color {
+  font-family: 'Montserrat', sans-serif !important;
+  color:rgb(187, 36, 89) !important;
+}
+
+.m-1 {
+  margin: 1 rem !important;
+}
+
+.my-1 {
+  margin: 1 rem 0 !important;
+}
+
+.p-1 {
+  padding: 1 rem !important;
+}
+
+.py-1 {
+  padding: 1 rem 0 !important;
+}
+
+.m-2 {
+  margin: 1.5 rem !important;
+}
+
+.my-2 {
+  margin: 1.5 rem 0 !important;
+}
+
+.p-2 {
+  padding: 1.5 rem !important;
+}
+
+.py-2 {
+  padding: 1.5 rem 0 !important;
+}
+
+.m-3 {
+  margin: 2.5 rem !important;
+}
+
+.my-3 {
+  margin: 2.5 rem 0 !important;
+}
+
+.p-3 {
+  padding: 2.5 rem !important;
+}
+
+.py-3 {
+  padding: 2.5 rem 0 !important;
+}
+
+.m-4 {
+  margin: 3.5 rem !important;
+}
+
+.my-4 {
+  margin: 3.5 rem 0 !important;
+}
+
+.p-4 {
+  padding: 3.5 rem !important;
+}
+
+.py-4 {
+  padding: 3.5 rem 0 !important;
+}
+
+.m-5 {
+  margin: 4.5 rem !important;
+}
+
+.my-5 {
+  margin: 4.5 rem 0 !important;
+}
+
+.p-5 {
+  padding: 4.5 rem !important;
+}
+
+.py-5 {
+  padding: 4.5 rem 0 !important;
+}
+
+.container {
+  max-width: 1100px !important; 
+  margin: 0 auto !important;
+  overflow: auto !important;
+  padding: 0 40px !important;
+}
+
+.card {
+  background-color: #fff !important;
+  color: #333 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
+  padding: 20px !important;
+  margin: 10px !important;
+}
+
+.btn {
+  display: inline-block !important;
+  padding: 10px 30px !important;
+  cursor: pointer !important;
+  background: #0a2e4d !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.btn ~ span {
+  margin-left:10px !important;
+}
+
+Link{
+  text-decoration: none !important;
+  color:rgb(187, 36, 89) !important;
+}
+
+.btn:hover {
+  transform: scale(0.98) !important;
+}
+
+.btn-outline {
+  background-color: transparent !important;
+  border: 1px #fff solid !important;
+}
+
+.btn-outline:hover{
+  background-color: rgb(187, 36, 89) !important;
+  border:none;
+}
+
+/* Backgrounds & colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: #0a2e4d !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover{
+  background-color:rgb(187, 36, 89) !important;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: #002240 !important;
+  color: #fff !important;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff !important;
+}
+
+/* Text sizes */
+.lead {
+  font-size: 20px !important;
+}
+
+.sm {
+  font-size: 1rem !important;
+}
+
+.md {
+  font-size: 2rem !important;
+}
+
+.lg {
+  font-size: 3rem !important;
+}
+
+.xl {
+  font-size: 4rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.flex {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 20px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+/*Placeholder selector for h1 and h2*/
+h1,
+h2 {
+  font-weight: 300 !important;
+  line-height: 1.2 !important;
+  margin: 10px 0 !important;
+}
+
+p {
+  margin: 10px 0 !important;
+}
+
+img {
+  width: 100% !important;
+}
+/* Showcase */
+.showcase {
+  height: 400px !important;
+  background-color: #0a2e4d !important;
+  color: #fff !important;
+  position: sticky !important;
+}
+
+.showcase h1 {
+  font-size: 40px !important;
+}
+
+.showcase p {
+  margin: 20px 0 !important;
+}
+
+.showcase .grid {
+  overflow: visible !important;
+  grid-template-columns: 55% auto !important;
+  gap: 30px !important;
+}
+
+.showcase-text {
+  -webkit-animation: slideInFromLeft 1s ease-in !important;
+          animation: slideInFromLeft 1s ease-in !important;
+}
+
+.showcase-form {
+  position: relative !important;
+  top: 60px !important;
+  height: 350px !important;
+  width: 400px !important;
+  padding: 40px !important;
+  z-index: 100 !important;
+  justify-self: flex-end !important;
+  -webkit-animation: slideInFromRight 1s ease-in !important;
+          animation: slideInFromRight 1s ease-in !important;
+}
+
+.showcase-form .form-control {
+  margin: 30px 0 !important;
+}
+
+.showcase-form input[type=text],
+.showcase-form input[type=email] {
+  border: 0 !important; 
+  border-bottom: 1px solid #b4becb !important;
+  width: 100% !important;
+  padding: 3px !important;
+  font-size: 16px !important;
+}
+
+.showcase-form input:focus {
+  outline: none !important;
+}
+
+.showcase::before,
+.showcase::after {
+  content: "" !important;
+  position: absolute !important;
+  height: 0px !important;
+  bottom: -70px !important;
+  right: 0 !important;
+  left: 0 !important;
+  background: #fff !important;
+  transform: skewY(-3deg) !important;
+  -webkit-transform: skewY(-3deg) !important ;
+  -moz-transform: skewY(-3deg) !important;
+  -ms-transform: skewY(-3deg) !important;
+}
+
+/*SHOWCASE END*/
+
+/*MEDIA QUERIES*/
+/*Media Queries*/
+/* Tablets and under */
+@media (max-width: 768px) {
+  .grid,
+.showcase .grid,
+.stats .grid,
+.cli .grid,
+.cloud .grid,
+.features-main .grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
+
+  .showcase {
+    height: auto !important;
+  }
+
+  .showcase-text {
+    text-align: center !important;
+    margin-top: 40px !important;
+    -webkit-animation: slideInFromTop 1s ease-in !important;
+            animation: slideInFromTop 1s ease-in !important;
+  }
+
+  .showcase-form {
+    justify-self: center !important;
+    margin: auto !important;
+    -webkit-animation: slideInFromBottom 1s ease-in !important;
+            animation: slideInFromBottom 1s ease-in !important;
+  }
+}
+  /*MEDIA QUERIES END*/

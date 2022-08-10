@@ -1,0 +1,286 @@
+/*Color variables*/
+/* Mixins and Functions */
+body,html{
+    background-color: #fff !important;
+}
+
+.title-color2 {
+    color:antiquewhite !important;
+}
+
+.stats-color{
+    font-family: 'Montserrat', sans-serif !important;
+    color:rgb(187, 36, 89) !important;
+    font-size:12px;
+}
+
+.m-1 {
+    margin: 1 rem !important;
+  }
+  
+  .my-1 {
+    margin: 1 rem 0 !important;
+  }
+  
+  .p-1 {
+    padding: 1 rem !important;
+  }
+  
+  .py-1 {
+    padding: 1 rem 0 !important;
+  }
+  
+  .m-2 {
+    margin: 1.5 rem !important;
+  }
+  
+  .my-2 {
+    margin: 1.5 rem 0 !important;
+  }
+  
+  .p-2 {
+    padding: 1.5 rem !important;
+  }
+  
+  .py-2 {
+    padding: 1.5 rem 0 !important;
+  }
+  
+  .m-3 {
+    margin: 2.5 rem !important;
+  }
+  
+  .my-3 {
+    margin: 2.5 rem 0 !important;
+  }
+  
+  .p-3 {
+    padding: 2.5 rem !important;
+  }
+  
+  .py-3 {
+    padding: 2.5 rem 0 !important; 
+  }
+  
+  .m-4 {
+    margin: 3.5 rem !important;
+  }
+  
+  .my-4 {
+    margin: 3.5 rem 0 !important;
+  }
+  
+  .p-4 {
+    padding: 3.5 rem !important;
+  }
+  
+  .py-4 {
+    padding: 3.5 rem 0 !important;
+  }
+  
+  .m-5 {
+    margin: 4.5 rem !important;
+  }
+  
+  .my-5 {
+    margin: 4.5 rem 0 !important;
+  }
+  
+  .p-5 {
+    padding: 4.5 rem !important;
+  }
+  
+  .py-5 {
+    padding: 4.5 rem 0 !important;
+  }
+  
+  .container {
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    overflow: auto !important;
+    padding: 0 40px !important;
+  }
+  
+  .card {
+    background-color: #fff !important;
+    color: #333 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
+    padding: 20px !important;
+    margin: 10px !important;
+  }
+  
+  .btn {
+    display: inline-block !important;
+    padding: 10px 30px !important;
+    cursor: pointer !important;
+    background: #0a2e4d !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+  }
+  .btn:hover {
+    transform: scale(0.98) !important;
+  }
+  
+  .btn-outline {
+    background-color: transparent !important;
+    border: 1px #fff solid !important;
+  }
+  
+  /* Backgrounds & colored buttons */
+  .bg-primary,
+  .btn-primary {
+    background-color: #0a2e4d !important;
+    color: #fff !important;
+  }
+  
+  .bg-dark,
+  .btn-dark {
+    background-color: #002240 !important;
+    color: #fff !important;
+  }
+  
+  .bg-primary a,
+  .btn-primary a,
+  .bg-dark a,
+  .btn-dark a {
+    color: #fff !important;
+  }
+  
+  /* Text sizes */
+  .lead {
+    font-size: 20px !important;
+  }
+  
+  .sm {
+    font-size: 1rem !important;
+  }
+  
+  .md {
+    font-size: 2rem !important;
+  }
+  
+  .lg {
+    font-size: 3rem !important;
+  }
+  
+  .xl {
+    font-size: 4rem !important;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .flex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+  }
+  
+  .grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+  }
+  
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  
+
+
+  
+  /*Placeholder selector for h1 and h2*/
+  h1,
+  h2 {
+    font-weight: 300 !important;
+    line-height: 1.2 !important;
+    margin: 10px 0 !important;
+  }
+  
+  p {
+    margin: 10px 0 !important;
+  }
+  
+  img {
+    width: 100% !important;
+  }
+
+  /* Stats */
+.stats {
+    padding-top: 100px !important;
+    -webkit-animation: slideInFromBottom 1s ease-in !important;
+            animation: slideInFromBottom 1s ease-in !important;
+  }
+  
+  .stats-heading {
+    max-width: 500px !important;
+    margin: auto !important;
+  }
+  
+  .stats .grid h3 {
+    font-size: 35px !important;
+  }
+  
+  .stats .grid p {
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+
+
+  /* Tablets and under */
+@media (max-width: 768px) {
+    .grid,
+  .showcase .grid,
+  .stats .grid,
+  .cli .grid,
+  .cloud .grid,
+  .features-main .grid {
+      grid-template-columns: 1fr !important;
+      grid-template-rows: 1fr !important;
+    }
+  
+    .showcase {
+      height: auto !important;
+    }
+  
+    .showcase-text {
+      text-align: center !important;
+      margin-top: 40px !important;
+      -webkit-animation: slideInFromTop 1s ease-in !important;
+              animation: slideInFromTop 1s ease-in !important;
+    }
+  
+    .showcase-form {
+      justify-self: center !important;
+      margin: auto !important;
+      -webkit-animation: slideInFromBottom 1s ease-in !important;
+              animation: slideInFromBottom 1s ease-in !important;
+    }
+  
+    .cli .grid > *:first-child {
+      grid-column: 1 !important;
+      grid-row: 1 !important;
+    }
+  
+    .features-head,
+  .features-sub-head {
+      text-align: center !important;
+    }
+  
+    .features-head img,
+  .features-sub-head img {
+      justify-self: center !important;
+    }
+  
+    .features-main .grid > *:first-child,
+  .features-main .grid > *:nth-child(2) {
+      grid-column: 1 !important;
+    }
+  }
